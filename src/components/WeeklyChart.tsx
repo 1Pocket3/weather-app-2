@@ -9,8 +9,6 @@ const WeeklyChart: React.FC<{ selectedData: WeatherData }> = ({ selectedData }) 
   const chartRef = useRef<HTMLCanvasElement>(null);
   const chartInstance = useRef<Chart | null>(null);
 
-  console.log('selectedData', selectedData)
-
   useEffect(() => {
     if (chartRef.current) {
       const chartData: ChartData = {

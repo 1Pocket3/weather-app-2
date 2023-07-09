@@ -43,7 +43,7 @@ const WeatherTable = () => {
     if (minFilter !== 0) {
       setFilteredData(filteredData.filter((item) => minFilter === null || item.minTemp >= minFilter));
     }
-  }, [maxFilter, minFilter]);
+  }, [maxFilter, minFilter, setFilteredData]);
 
   const handleCountryChange = (event: React.ChangeEvent<{}>, value: string | null) => {
     setSelectedCountry(value || '');
@@ -65,7 +65,6 @@ const WeatherTable = () => {
   const [selectedRow, setSelectedRow] = useState(0);
 
   const classes = useStyles();
-  console.log('filteredData', filteredData)
 
   const options = filteredData && filteredData
     .filter((item) => (maxFilter === null || item.maxTemp <= maxFilter) && (minFilter === null || item.minTemp >= minFilter))
