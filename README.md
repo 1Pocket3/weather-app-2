@@ -1,8 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+First, clone repository:
+
+```bash
+git clone https://github.com/your/repository.git
+```
+
+```bash
+cd project-directory
+```
+
+And install all dependencies 
+
+```bash
+npm install
+
+```
+
+After steps above u can start the project by next command in da bash
 
 ```bash
 npm run dev
@@ -14,21 +30,20 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## About Project
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+In this case i was used Meterial-UI v5+, nextJS with a TypeScript, Axios libriry for requests, canvas for chart rendering, and some bootsrapstyles like theme and etc.
 
-## Learn More
+React-Spinners for showing simple loading point.
 
-To learn more about Next.js, take a look at the following resources:
+Project was did as a test task for a vacancy on djin link - https://djinni.co/jobs/573577-frontend-developer-php-react-js-vue-d3-js-/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To get info about a city weather, i used https://open-meteo.com/en/docs currently Forecast Weather API for get info by query paramms
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For fetch to API project used axio lib
 
-## Deploy on Vercel
+Custumization with a material-ui v5+
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+TG: @justpocket
