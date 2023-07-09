@@ -4,7 +4,7 @@
 First, clone repository:
 
 ```bash
-git clone https://github.com/your/repository.git
+git clone https://github.com/1Pocket3/weather-app-2.git
 ```
 
 ```bash
